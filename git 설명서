@@ -1,0 +1,11 @@
+- 로컬 폴더에 파일이 있는 경우
+1. 깃허브에 저장소 생성
+2. 작업폴더에서 Git Bash Here 선택 
+    - git init : git 초기화
+    - git add . : 파일 추가
+    - git commit -m "초기커밋" : 메세지 추가
+    - git remote add origin "깃허브 저장 url" : 깃허브홈페이지 저장소 url
+    - git branch -M main : 메인으로 이동
+    - git push -u origin main : 메인으로 push
+3. 소스트리 실행
+4. 클론 후 깃허브 url 저장소 추가
