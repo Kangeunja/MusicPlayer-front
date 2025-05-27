@@ -1,0 +1,22 @@
+.mobile-wrap {
+  padding: 20px 40px;
+}
+
+.mobile-title {
+  font-size: 50px;
+  font-weight: bold;
+  color: #313131;
+  margin-bottom: 50px;
+}
+
+.mobile-top-title {
+  font-size: 30px;
+  margin-right: 15px;
+  float: left;
+}
+
+.mobile-right-icon {
+  width: 40px;
+  height: 40px;
+  float: left;
+}

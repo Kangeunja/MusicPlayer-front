@@ -1,0 +1,12 @@
+- 초기 프로젝트 세팅시 npx install 오류발생
+  You are running create-react-app 5.0.1, which is behind the latest release (5.1.0).
+  We recommend always using the latest version of create-react-app if possible.
+  The latest instructions for creating a new app can be found here: https://create-react-app.dev/docs/getting-started/
+
+해결방법
+
+1. npm uninstall -g create-react-app 시스템에 설치된 오래된 create-react-app을 완전히 제거
+2. npm cache clean --force 캐시 정리
+3. npx create-react-app . --template typescript 현재 폴더에서 설치
+
+tip)프로젝트를 만들때는 소문자로 지정
